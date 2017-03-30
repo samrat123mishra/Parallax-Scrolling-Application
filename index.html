@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Paralax Scrolling </title>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Exo|Audiowide|Clicker+Script|Droid+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="layouts/paralax.css"/>
+		<link rel="icon" type="image/png" href="images/icon.png">
+		
+		
+	</head>
+		<body>
+		  <div id="overlay">
+			  <img src="images/loader.gif" alt="Loader"/>
+        <div id="progstat"></div>
+        <div id="progress"></div>
+      </div>
+
+			<nav class="navbar navbar-inverse navbar-fixed-top navigation">
+			<div class="container-fluid">
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="glyphicon glyphicon-menu-hamburger"></span>                       
+      			</button>
+				<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">Indian Cricket History </a>
+				<img src="images/bcci-logo.png" alt="header logo">
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right jump">
+				<li data-id="#0"><a href="#">Home</a></li>
+				<li data-id="#1"><a href="#">Begining</a></li>
+				<li data-id="#2"><a href="#">Legends</a></li>
+				<li data-id="#3"><a href="#">World Title</a></li>
+				<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Records
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li data-id="#5"><a href="#">Test</a></li>
+          <li data-id="#4"><a href="#">ODI</a></li>
+          <li data-id="#6"><a href="#">T20</a></li>
+        </ul>
+      </li>
+				
+				</ul>
+				</div>
+				</div>
+			</nav>
+
+			<section id="0"class="first" data-type="background" data-speed="20" class="pages">
+				<img src="images/front.jpg" alt="" id="left_banner"/>
+				
+				<img  src="images/front1.jpg" alt="" id="right_banner"/>
+			</section>
+			<section class="home" id="1" data-type="background" data-speed="20" class="pages">     
+				<article >
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdUFpQZTZtQmU2cDg" alt="era-1" />
+				<img  src="https://drive.google.com/uc?id=0B3RUbDOwlgCdcFlYa3haZHh6Mzg" alt="test-in-england" />
+				<img  src="https://drive.google.com/uc?id=0B3RUbDOwlgCdRDYxNDlsYnBIU2c" alt="oriental-cricket-club"/>
+				</article>
+				<article>
+					<h2>The Begining Of Indian Cricket</h2><hr/>
+					<p>The entire history of cricket in India and the sub-continent as a whole is based on the existence and development of the British Raj via the East India Company.On 31 December 1600, Queen Elizabeth I granted a Royal Charter to the (EIC) East India Company, often colloquially referred to as "John Company". It was initially a joint-stock company that sought trading privileges in India and the East Indies, but the Royal Charter effectively gave it a 21-year monopoly on all trade in the region. In time, the East India Company transformed from a commercial trading venture to one which virtually ruled India as it acquired auxiliary governmental and military functions, until its dissolution in 1858 following the Indian Mutiny. The East India Company was the means by which cricket was introduced into India.</p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdd1BXVVg0SWFWb3c" alt="1983-worldcup" />
+				<img  src="https://drive.google.com/uc?id=0B3RUbDOwlgCdQ1JYZEd6Q2xTbmc" alt="start" />
+				<img  src="https://drive.google.com/uc?id=0B3RUbDOwlgCdVXhfYXdrelp3Q28" alt="era-2" />
+				</article>
+				<article>
+					<h2>Indian Cricket Team in 1980-1990</h2><hr/>
+					<p>During the 1980s, India developed a more attack-minded batting line-up with stroke makers such as the wristy Mohammed Azharuddin, Dilip Vengsarkar and all-rounder Ravi Shastri. India won the Cricket World Cup in 1983, defeating the favourites and two-time defending champions West Indies in the final, owing to a strong bowling performance. In spite of this, the team performed poorly in the Test arena, including 28 consecutive Test matches without a victory. In 1984, India won the Asia Cup and in 1985, won the World Championship of Cricket in Australia. Apart from this, India remained a weak team outside the Indian subcontinent. India's Test series victory in 1986 against England remained the last Test series win by India outside the subcontinent for the next 19 years. The 1980s saw Gavaskar and Kapil Dev (India's best all-rounder to date) at the pinnacle of their careers.</p>
+				</article>
+			</section>   
+			
+			<section class="about" id="2" data-type="background" data-speed="30" class="pages">
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdZERnSmZrQzk5UkU" alt="kapil-dev" />
+				<img  src="https://drive.google.com/uc?id=0B3RUbDOwlgCdZlJzdFprSDFERG8" alt="azharuddin" />
+				<img  src="https://drive.google.com/uc?id=0B3RUbDOwlgCdcG15SURLandFa2s" alt="sachin-tendulkar" />
+				</article>
+					<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdb2hjYnZCZnF3Qk0" alt="gavaskar"/>
+				<img  src="https://drive.google.com/uc?id=0B3RUbDOwlgCdb1N4cTFnM1pTalU" alt="sourav-ganguly" />
+				<img  src="https://drive.google.com/uc?id=0B3RUbDOwlgCdaXhPekk4ZF9lbm8" alt="rahul-dravid" />
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdSi1QN3ZYa2txM1k" alt="sehwag" />
+				<img  src="https://drive.google.com/uc?id=0B3RUbDOwlgCdUEdYRENnNHJpY0U" alt="zaheer-khan" />
+				<img  src="https://drive.google.com/uc?id=0B3RUbDOwlgCdMlBCTjN0c3ZpVEU" alt="laxman" />
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdUGh5VmpMREZlVDg" alt="anil-kumble" />
+				<img  src="https://drive.google.com/uc?id=0B3RUbDOwlgCddnlKZDRnT2g5T1E" alt="ms-dhoni" />
+				<img  src="https://drive.google.com/uc?id=0B3RUbDOwlgCdTFVWNnZsYl96cjg" alt="yuvraj-singh" />
+				</article>
+			</section>
+			<section class="about1" id="3"data-type="background" data-speed="50" class="pages">
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdejBoSkRoempsejQ" alt="first-worldcup" />
+				</article>
+				<article>
+				<h2>1983 World Cup</h2><hr/>
+					<p>During the 1980s, India developed a more attack-minded batting line-up with stroke makers such as the wristy Mohammed Azharuddin, Dilip Vengsarkar and all-rounder Ravi Shastri. India won the Cricket World Cup in 1983, defeating the favourites and two-time defending champions West Indies in the final, owing to a strong bowling performance. In spite of this, the team performed poorly in the Test arena, including 28 consecutive Test matches without a victory. In 1984, India won the Asia Cup and in 1985, won the World Championship of Cricket in Australia.</p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCddHZVb0Vva0xBc0k" alt="t20-worldcup" />
+				</article>
+				<article>
+				<h2>2007 ICC T20 World Cup</h2><hr/>
+					<p>India won the toss and chose to bat on what was considered to be a traditionally batsman-friendly pitch at the Bullring.Pakistan went into the last over needing 13 runs to win, with only 1 wicket remaining. Joginder Sharma bowled a wide first ball.Misbah attempted to hit the next ball with a paddle-scoop over fine leg, but he only managed to sky the ball, and it was caught at short fine-leg by Sreesanth, leaving Pakistan all out for 152 runs. Irfan Pathan was awarded the Man of the Match for his spell, which included 3 wickets for 16 runs, including that of Man of the Series, Shahid Afridi.</p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdT2hxZmVURFRPTTQ" alt="2011-worldcup" />
+				</article>
+				<article>
+				<h2>2011 ICC World Cup</h2><hr/>
+					<p>The 2011 ICC Cricket World Cup Final was played between India and Sri Lanka at the Wankhede Stadium in Mumbai on 2 April 2011. This was the 10th ICC Cricket World Cup. India won the match by six wickets, its second World Cup victory, having previously won in 1983. India became the third nation to have won the World Cup more than once, along with Australia and the West Indies. This was the first World Cup where both the finalists were Asian teams. This was the second time in World Cup history that a host nation won the World Cup Final and the first time to win on their home ground..</p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdd1c3Zm5uSkFWMWM" alt="champions-trophy" />
+				</article>
+				<article>
+				<h2>2013 ICC Champions Trophy</h2><hr/>
+					<p>It was India's 2nd ICC Champions Trophy championship after the 2002 ICC Champions Trophy. But they had to share the honor with Sri Lanka since this was a joint championship winning. So this was the first time when India won that title individually. In addition India became the second team after Australia to win the ICC Champions Trophy more than one time. Ravindra Jadeja earned the man of the match award for his performance in the match. Shikhar Dhawan was named the man of the series for scoring 363 runs in the tournament. In the stadium, the match was watched by 24,867 spectators.</p>
+				</article>
+			</section>
+			<section class="about2" id="4" data-type="background" data-speed="50" class="pages">
+					<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdR0VnbmVBcmZoTzg" alt="sachin-odi"/>
+				</article>
+				<article>
+				<h2>Most Career Runs</h2><hr/>
+					<p> Name : Sachin Tendulkar &nbsp Runs : 18,426 &nbsp Matches : 463 &nbsp Average : 44.83</p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdcUo5bGRIQzlTVFE" alt="rohit-odi" />
+				</article>
+				<article>
+				<h2>Highest Individual Score</h2><hr/>
+					<p> Name : Rohit Sharma &nbsp Runs : 264 &nbsp Venue : Kolkata &nbsp Date : 2014</p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdMkRQRUZsTk50Rk0" alt="sachin-century" />
+				</article>
+				<article>
+				<h2>Most Career Centuries</h2><hr/>
+					<p> Name : Sachin Tendulkar &nbsp Centuries : 49 &nbsp Matches : 463 </p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdNGExWEVIRjIyMTg" alt="kohli-odi" />
+				</article>
+				<article>
+				<h2>Highest Career Average</h2><hr/>
+					<p> Name : Virat Kohli &nbsp Average : 53.11 &nbsp Innings : 171 &nbsp Runs : 7755  </p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdTEVySi04aXNIS3M" alt="kumble-odi" />
+				</article>
+				<article>
+				<h2>Most Career Wickets</h2><hr/>
+					<p> Name : Anil Kumble &nbsp Wickets : 334 &nbsp Innings : 263 </p>
+				</article>
+					<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdSGZvbGl0OVZFV0k" alt="dhoni-odi" />
+				</article>
+				<article>
+				<h2>Most Dismissal By Wicket-keeper</h2><hr/>
+					<p> Name : Mahendra Singh Dhoni &nbsp Dismissals : 357 &nbsp Innings : 279  &nbsp Catches : 266  &nbsp Stumpings : 91</p>
+				</article>
+			</section>
+				<section class="about3" id="5" data-type="background" data-speed="100" class="pages">
+					<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdYTdRRE5UMTVFUFk" alt="sachin-test" />
+				</article>
+				<article>
+				<h2>Most Career Runs</h2><hr/>
+					<p> Name : Sachin Tendulkar &nbsp Runs : 15,921 &nbsp Matches : 200 &nbsp Average : 53.78 &nbsp Innings : 329</p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdY0trS1l3NU5qS3M" alt="sehwag-test" />
+				</article>
+				<article>
+				<h2>Highest Individual Score</h2><hr/>
+					<p> Name : 	Virender Sehwag &nbsp Runs : 319 &nbsp Venue : Chennai </p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdb2pULTFzcVl2Nkk" alt="sachin-100" />
+				</article>
+				<article>
+				<h2>Most Career 100s</h2><hr/>
+					<p> Name : Sachin Tendulkar &nbsp 100s : 51 &nbsp Matches : 200 </p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdZEpQVE1fSkxyV1k" alt="kambli" />
+				</article>
+				<article>
+				<h2>Highest Career Average</h2><hr/>
+					<p> Name : Vinod Kambli &nbsp Average : 54.20 &nbsp Innings : 21 &nbsp Runs : 1084  </p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdQnlqWlptbDVydEU" alt="kumble-test" />
+				</article>
+				<article>
+				<h2>Most Career Wickets</h2><hr/>
+					<p> Name : Anil Kumble &nbsp Wickets : 619 &nbsp Matches : 132 Average : 29.65</p>
+				</article>
+					<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdcmliaFRHcXBJcms" alt="dhoni-test" />
+				</article>
+				<article>
+				<h2>Most Dismissal By Wicket-keeper</h2><hr/>
+					<p> Name : Mahendra Singh Dhoni &nbsp Dismissals : 294 &nbsp Innings : 166  &nbsp Catches : 256  &nbsp Stumpings : 38</p>
+				</article>
+			</section>
+			<section class="about4" id="6" data-type="background" data-speed="500" class="pages">
+					<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdQzdUQlRNbXZOb00" alt="kohli-t20" />
+				</article>
+				<article>
+				<h2>Most Career Runs</h2><hr/>
+					<p> Name : Virat Kohli &nbsp Runs : 1,707 &nbsp Innings : 43 &nbsp Average : 55.06</p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdQkVwZ2pZNTQ2RDg" alt="rahul-t20" />
+				</article>
+				<article>
+				<h2>Highest Individual Score</h2><hr/>
+					<p> Name : KL Rahul &nbsp Runs : 110* &nbsp Venue : Lauderhill &nbsp Year : 2016</p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdd1ZtREF2SEp3NnM" alt="sehwag-t20" />
+				</article>
+				<article>
+				<h2>Highest Career Strike Rate</h2><hr/>
+					<p> Name : Virender Sehwag &nbsp Strike Rate : 145.38 &nbsp Runs : 394 &nbsp Balls Faced : 271</p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdNDRyRC1obHowdTA" alt="chahal-t20" />
+				</article>
+				<article>
+				<h2>Best Figures In Match</h2><hr/>
+					<p> Name : Yuzvender Chahal &nbsp Figures : 6-25 &nbsp Venue : Bangalore &nbsp Opposition : England </p>
+				</article>
+				<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdZEJweENEbVhtUlU" alt="" />
+				</article>
+				<article>
+				<h2>Most Career Wickets</h2><hr/>
+					<p> Name : Ravichandran Ashwin &nbsp Wickets : 52 &nbsp Innings : 45 </p>
+				</article>
+					<article>
+				<img src="https://drive.google.com/uc?id=0B3RUbDOwlgCdd3JNVHRKcEwyQmc" alt="" />
+				</article>
+				<article>
+				<h2>Most Dismissal By Wicket-keeper</h2><hr/>
+					<p> Name : Mahendra Singh Dhoni &nbsp Dismissals : 65 &nbsp Innings : 76  &nbsp Catches : 42  &nbsp Stumpings : 23</p>
+				</article>
+			</section>
+			<section id="about5"  class="pages">
+					<img src="images/the-end.png" alt=""/>
+			</section>
+			<script src="scripts/load.js"></script>
+			<script src="scripts/paralax.js"></script>	
+		</body>
+</html>
